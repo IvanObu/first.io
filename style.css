@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Nav Panel */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.SHead{
+    display: flex;
+    background-color: rgba(22, 34, 57, 0.95);
+    justify-content: space-between;
+}
+
+.Logo{
+    margin-left: 3%;
+    padding: 0.8%;
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.mark1{
+    color: orange;
+}
+
+.mark2{
+    color: rgb(199, 199, 199);
+}
+.Head1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.Head2{
+    color: white;
+    font-size: 100px;
+}
+
+.Head3{
+    background-color: orange;
+    text-shadow: none;
+    text-align: center;
+    width: 50%;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border-radius: 2px;
+}
+.Head3>a{
+    color: white;
+    font-size: 30px;
+    text-shadow: none;
+}
+.head_2_mask{
+    color: orange;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin-right: 3%;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: orange;
+    font-size: 19px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(9, 15, 28);
+}
+
+/* Main body */
+
+
+/* Home Block */
+.Home{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(35%);
+}
+.Vheader{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: orange;
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+/* About Block */
+.About{
+    background-image: url(https://templatemo.com/templates/templatemo_557_grad_school/assets/images/choosing-bg.jpg);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Dr{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.7);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: rgba(180, 179, 179,0.3);
+    padding: 15px;
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav_Ab{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.Out{
+    background-color: orange;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.In{
+    background-color: orange;
+    width: 60%;
+    height: 60%;
+    border-style: solid;
+    border-width: 3.4px;
+    border-color: rgb(9, 15, 28);
+}
+
+.f_nav_Ab, .s_nav_Ab, .t_nav_Ab{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 10vh;
+}
+
+.chose_Ab{
+    display: flex;
+    justify-content: center;
+}
+
+.nOut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+.nIn{
+    background-color: white;
+    width: 60%;
+    height: 60%;
+}
+
+.n{
+    color: white;
+}
+
+.main_Inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.Inf_ph{
+    margin-left: 20%;
+    margin-right: 5%;
+}
+.Inf_ph>img{
+    height: 30vh;
+    width: 35vh;
+}
+
+.Inf_txt{
+    height: 100%;
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+    margin-right: 20%;
+    flex-direction: column;
+}
+
+.H_Inf{
+    font-size: 40px;
+    margin-top: 5.5vh;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.Main_inf{
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* End */
+
+.Rep{
+    padding-top: 10%;
+    display: flex;
+    background-image: url(https://templatemo.com/templates/templatemo_557_grad_school/assets/images/video-bg.jpg);
+    height: 50vh;
+    margin-right: 0;
+    background-size: cover;
+}
+
+.RTxt{
+    padding-top: 1vh;
+    margin-left: 15%;
+    padding-right: 20px;
+    width: 40%;
+    font-size: 13px;
+    text-align: justify;
+    color: white;
+}
+
+.RTxt>#f{
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.VInf{
+    width: 40vh;
+    height: 55vh;
+    margin-right: 0;
+    margin-left: 5%;
+    position: relative;
+}
+
+.VInf img{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+}
+
+.VInf>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+}
+
+.VInf>div>a{
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 26px;
+}
+
+.aV{
+    width: 200px;
+    height: 200px;
+}
+
+.MF{
+    background-image: url(https://templatemo.com/templates/templatemo_557_grad_school/assets/images/contact-bg.jpg);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*END-Map-Form*/
+
+.Kep{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Kep>div{
+    display: flex;
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.7);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: rgba(180, 179, 179,0.3);
+    padding: 1%;
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.MF_main{
+    margin-top: 3%;
+    display: flex;
+    height: 65vh;
+    margin-bottom: 5%;
+}
+
+.forms{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(250 250 250 / 10%);
+    /* opacity: 0.3; */
+    margin-left: 15%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Field{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+#textfield {
+    color: white;
+}
+input:focus, select:focus{outline:0}/*delete active border*/
+textarea:focus, select:focus{outline:0}
+::placeholder{
+    color: white;
+}
+.Field>div>input{
+    box-shadow:none;
+    height: 160%;
+    background-color: rgb(250 250 250 / 20%);
+    border-style: none;
+}
+
+.mail_field{
+    margin-right: 4.2%;
+}
+.t_ar{
+    margin-top: 4%;
+}
+.t_ar>textarea{
+    background-color: rgb(250 250 250 / 20%);
+    border-style: none;
+    width: 90%;
+}
+.t_ar,.click{
+    margin-left: 5%;
+}
+
+.click{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 60%;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+}
+.click>a{
+    color: white;
+    text-shadow: none;
+}
+.Map{
+    height: 100%;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+.Map>iframe{
+    height: 100%;
+    width: 100%;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #152036;
+    height: 7vh;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer>span{
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+
+@media screen and (max-width: 900px){
+    .nav{
+        flex-direction: column;
+    }
+    .Inf_txt{
+        margin-right: 10%;
+    }
+    .Inf_ph{
+        margin-left: 10%;
+        height: 50%;
+    }
+    .Inf_ph>img{
+        height: 23vh;
+        width: 25vh;
+    }
+    .About{
+        height: 70vh;
+    }
+
+    .VInf{
+        margin-top: 5%;
+    }
+    .Field{
+        flex-direction: column;
+        
+    }
+    .mail_field{
+        margin-top: 10%;
+    }
+    .forms{
+        margin-left: 10%;
+        margin-right: 2%;
+        height: 75%;
+    }
+    .Map{
+        margin-right: 10%;
+        margin-left: 2%;
+        height: 75%;
+    }
+    .MF_main{
+        justify-content: center;
+
+    }
+    .click{
+        width: 80%;
+    }
+    
+}
+@media(max-width: 1400px){
+    .About{
+        height: 70vh;
+    }
+    
+    .Inf_txt{
+        margin-right: 12%;
+    }
+    .Inf_ph{
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .VInf{
+        padding-top: 20%;
+        margin-right: 10%;
+        height: 22%;
+        width: 25%;
+    }
+    .VInf img{
+        position: absolute;
+        width: 100%;
+        height: 60%;
+    }
+    .RTxt{
+        padding-top: 0;
+        margin-left: 10%;
+        width: 45%;
+        padding-right: 10px;
+    }
+    .Rep{
+        height: 60vh;
+    }
+    #im{
+        height: 140%;
+    }
+    .Field{
+        flex-direction: column;
+    }
+    .mail_field{
+        margin-top: 10%;
+    }
+    .MF_main{
+        justify-content: space-between;
+    }
+    .Map,.forms{
+        height: 80%;
+    }
+    
+    .click{
+        margin-top: 0%;
+        width: 60%;
+    }
+    .t_ar>textarea{
+        height: 80%;
+        margin-bottom: 0;
+    }
+}
